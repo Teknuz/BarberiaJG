@@ -22,7 +22,7 @@ const Team = () => {
       role: "Barbero - Dueño",
       experience: "5 años",
       specialty: "Cirujano Plastico / Salva vidas",
-      image: {yo}
+      image:src= {yo}
     }, 
     {
       name: "Vacante Disponible",
