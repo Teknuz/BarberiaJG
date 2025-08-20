@@ -1,7 +1,7 @@
 // src/components/About.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import salon from "../assets/salon.jpeg";
 const About = () => {
   return (
     <section id="nosotros" className="py-16 md:py-20 relative overflow-hidden">
@@ -34,7 +34,7 @@ const About = () => {
                 <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-64 md:h-96 flex items-center justify-center">
                   {/* <span className="text-gray-500">Imagen de la barbería</span> */}
                     <img
-                  src="./src/assets/salon.jpeg"
+                  src={salon}
                   alt="Imagen de fondo"
                   className="w-full h-full object-cover "
                   />
