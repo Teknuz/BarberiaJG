@@ -1,6 +1,7 @@
 // src/components/Hero.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
+import fondo from "../assets/fondo.jpeg";
 
 const Hero = () => {
   return (
@@ -81,7 +82,7 @@ const Hero = () => {
               <div className="relative rounded-2xl overflow-hidden border-4 border-amber-500/30">
                 <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-64 sm:h-80 md:h-96 lg:h-[500px] flex items-center justify-center">
                   <img
-                  src="./src/assets/fondo.jpeg"
+                  src={fondo}
                   alt="Imagen de fondo"
                   className="w-full h-full object-cover"
                   />

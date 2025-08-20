@@ -1,7 +1,7 @@
 // src/components/Team.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import yo from "../assets/yo.jpg";
 const Team = () => {
   
   const barbers = [
@@ -22,7 +22,7 @@ const Team = () => {
       role: "Barbero - Dueño",
       experience: "5 años",
       specialty: "Cirujano Plastico / Salva vidas",
-      image: "./src/assets/yo.jpg"
+      image: {yo}
     }, 
     {
       name: "Vacante Disponible",
