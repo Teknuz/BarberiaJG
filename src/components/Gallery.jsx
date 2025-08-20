@@ -1,34 +1,24 @@
 // src/components/Gallery.jsx
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
+import corte from "../assets/corte.png";
+import corte2 from "../assets/corte2.png";
+import corte3 from "../assets/corte3.png";
+import corte6 from "../assets/corte6.png";
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
   
+
+
 const galleryItems = [
-  {
-    id: 1,
-    title: "Corte de Cabello",
-    image: "./src/assets/corte.png",
-  },
-  {
-    id: 2,
-    title: "Arreglo de Barba",
-    image: "./src/assets/corte2.png",
-  },
-  {
-    id: 3,
-    title: "Afeitado",
-    image: "./src/assets/corte3.png",
-  },
-  {
-    id: 4,
-    title: "Perfilado de Cejas",
-    image: "./src/assets/corte6.png",
-  },
+  { id: 1, title: "Corte de Cabello", image: corte },
+  { id: 2, title: "Arreglo de Barba", image: corte2 },
+  { id: 3, title: "Afeitado", image: corte3 },
+  { id: 4, title: "Perfilado de Cejas", image: corte6 },
 ];
+
 
 
   const nextSlide = () => {
